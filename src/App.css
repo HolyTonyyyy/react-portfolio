@@ -1,0 +1,263 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+a {
+	color: #ffbb00;
+	text-decoration: none;
+	
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+ul a {
+	text-shadow: 1px 1px #ffe17c;
+}
+/* Header Styles */
+
+header {
+	background-image: url("background.jpg");
+	color: #fff;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 20px;
+	color: #ffbb00;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+}
+
+
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.hero h1 {
+	font-size: 60px;
+	text-shadow: 2px 2px #ffd994;
+}
+
+.hero p {
+	font-size: 24px;
+	text-shadow: 1px 1px hsl(36, 100%, 80%);
+}
+
+.hero h2 {
+	font-size: 40px;
+	margin-bottom: 10px;
+	text-shadow: 1.5px 1.5px #ffde85;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #333;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+/* ----Products Styles */
+
+.products {
+	background-color: #080808;
+	padding: 50px;
+}
+
+.products h2 {
+	font-family: serif;
+	font-size: 36px;
+	margin-bottom: 40px;
+	text-align: center;
+	color: rgb(255, 225, 126)
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.product img {
+	width: 200px;
+	height: 200px;
+	margin-bottom: 20px;
+}
+
+.product h3 {
+	color:hsl(36, 100%, 80%);
+	font-family: serif;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.product p {
+	color:hsl(36, 100%, 80%);
+	font-family: serif;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+/* Deals Styles */
+
+.deals {
+	background-color: #f7f7f7;
+	padding: 50px;
+}
+
+.deals h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.deal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.deal img {
+	width: 400px;
+	height: 200px;
+	margin-bottom: 20px;
+}
+
+.deal h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.deal p {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.deal span {
+	color: #999;
+	text-decoration: line-through;
+	margin-left: 10px;
+}
+
+.deal a{
+	color: red
+}
+
+/*---Footer Styles */
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.social {
+	display: flex;
+}
+
+.social a {
+	display: inline-block;
+	padding: 10px;
+	color: #fff;
+}
+
+.social i {
+	font-size: 24px;
+	margin-right: 10px;
+}
+
+/*---Section  style */
+
+section {
+	background-color: rgb(133, 0, 0)
+}
+
+ /*---- Title font Color----*/
+
+ .hero{
+	color: #ffbb00;
+ }
+
+ @media screen and (max-width: 768px) {
+	main,
+	nav {
+	  flex-direction: column;
+	}
+  }
