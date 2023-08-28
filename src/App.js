@@ -9,7 +9,7 @@ function App() {
       <div>
        <Header/>
         <Projects/>
-        <section className="deals">
+        {/* <section className="deals">
           <h2>*Avatar*</h2>
           <div className="deal">
             <img src="https://via.placeholder.com/400x200" alt="Deal Image" />
@@ -17,7 +17,7 @@ function App() {
               Button
             </a>
           </div>
-        </section>
+        </section> */}
         <Contact/>
       </div>
     </div>
