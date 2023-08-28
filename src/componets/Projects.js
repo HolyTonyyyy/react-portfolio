@@ -23,8 +23,8 @@ function Projects() {
       </div>
       <div className="product">
         
-        <h3>*Something*</h3>
-        <p>$99.99</p>
+        <h3>Tech Blog</h3>
+        
         <a
           // href="https://user-images.githubusercontent.com/129125608/255674893-4e7b8d37-dd85-4c45-831b-13480eb7b284.png"
           href="https://tech-blog-14000-139bb60aaa8a.herokuapp.com/login"
